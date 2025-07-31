@@ -96,6 +96,8 @@ button {
 
 .second-section {
     flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 50px 0;
 }
 
 h2 {
@@ -106,6 +108,17 @@ h2 {
 
 .cards{
     display: flex;
+    gap: 25px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
 }
 
 .third-section {
