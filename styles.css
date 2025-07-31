@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: roboto;
 }
 
+h1,
 h2,
 h6,
+h5,
 ul,
 body{
     margin: 0;
@@ -33,16 +38,54 @@ ul{
 .second-section,
 .third-section,
 .fourth-section {
-    height: 300px;
     justify-content: center;
     align-items: center;
+}
+
+.first-section,
+.second-section,
+.third-section {
+    height: 500px;
 }
 
 .header {
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding: 20px;
+    height: 36px;
+    padding: 20px 12vw;
+}
+
+.first-section {
+    padding: 0 12vw;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 4px;
+    border-width: 0;
+    padding: 6px 24px;
+}
+
+.placeholder {
+    background-color: #808286; 
+    width: 450px;
+    height: 200px;
+    flex: none;
+}
+
+.first-section div div {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .links {
@@ -55,6 +98,12 @@ ul{
     flex-direction: column;
 }
 
+h2 {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+
 .cards{
     display: flex;
 }
@@ -62,13 +111,25 @@ ul{
 .third-section {
    background-color: #E5E7EB; 
    flex-direction: column;
+   padding: 0 250px;
 }
 
 .quote {
     width: 60vw;
-    font-size: 30px;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
 }
 
+h6 {
+    font-size: 36px;
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+.fourth-section {
+    height: 300px;
+}
 .box {
     background-color: #3882F6;
     color: white;
@@ -76,5 +137,18 @@ ul{
     width: 70vw;
     height: 100px;
     display: flex;
-    padding: 10px;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box button {
+    border-width: 1px;
+    border-color: #fff;
+}
+
+.footer {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
