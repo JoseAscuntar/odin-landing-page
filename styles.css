@@ -18,6 +18,15 @@ ul{
     list-style-type: none;
 }
 
+
+button {
+    background-color: #3882F6;
+    color: #fff;
+    border-radius: 4px;
+    border-width: 0;
+    padding: 6px 24px;
+}
+
 .footer, 
 .first-section,
 .header {
@@ -57,30 +66,28 @@ ul{
 
 .first-section {
     padding: 0 12vw;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 96px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
+.first-section div div {
+    width: 450px;
+}
 
-button {
-    background-color: #3882F6;
-    color: #fff;
-    border-radius: 4px;
-    border-width: 0;
-    padding: 6px 24px;
+.first-section div button {
+    margin-top: 10px;
 }
 
 .placeholder {
     background-color: #808286; 
     width: 450px;
-    height: 200px;
-    flex: none;
+    height: auto;
 }
 
 .first-section div div {
