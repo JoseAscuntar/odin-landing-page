@@ -35,6 +35,7 @@ button {
 }
 
 .header,
+.logo,
 .first-section,
 .second-section,
 .third-section,
@@ -62,6 +63,26 @@ button {
     align-items: center;
     height: 36px;
     padding: 20px 12vw;
+}
+
+.logo{
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+}
+
+.header img {
+    padding: 2px 0 2px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #E5E7EB;
+}
+
+.logo{
+    justify-content: space-between;
 }
 
 .first-section {
